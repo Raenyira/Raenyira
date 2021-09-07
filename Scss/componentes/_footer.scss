@@ -1,0 +1,116 @@
+/* Links */
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+        margin: 0 30px;
+    }
+    a i {
+        font-size: 3rem;
+    }
+
+    &:active {
+    color: blueviolet;
+}
+links {
+    animation: zoom s2 ease-out infinite;
+}
+
+    @keyframes zoom {
+        0% {
+        transform: scale(1, 1);
+        }
+        50% {
+        transform: scale(1.5, 1.5);
+        }
+        100% {
+        transform: scale(1, 1);
+        }
+        }
+}
+/*social*/
+.social {
+    text-align: center;
+    p {
+        font-size: 50px;
+        color:$blue;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        background-color: $pink;
+    }
+    }
+/*footer*/
+.footer-links {
+    background: $midnightblue;
+    color:$grey;
+    font-size: 12px;
+    padding: 35px 0;
+    li {
+        line-height: 2.8;
+    }
+    .footer-container ul {
+        text-align: center;
+    }
+    @media (max-width: 500px) { 
+        .footer-container {
+            grid-template-columns: 1fr;
+        }
+        .footer-container ul {
+            text-align: center;
+        }
+    }
+}
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    ul {
+        margin: 0 auto;
+    }
+}
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 12px;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 20px;
+    .active {
+    color: $blueviolet;
+    }
+}
+@media (max-width: 500px) {
+    .news-cards.columns-3,
+    .news-cards.columns-4 {
+        grid-template-columns: 1fr;
+    }
+    .cards-banner-two .content {
+        width: 100%;
+    }
+    
+}
+a {
+    &:link {
+        color: red;
+    }
+    &:visited {
+        color: rgb(162, 241, 34);
+    }
+    &:hover {
+        color:$hotpink;
+    }
+    &:active {
+        color: $blue;
+    }
+    &.highlight:hover {
+        color: $red;
+    }
+}
+.social-intro {
+    color: $blue;
+}
+/*
+© 2021 Raenyira Pazos Terminos de privacidad*/

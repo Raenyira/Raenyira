@@ -1,0 +1,30 @@
+/*efecc*/
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+
+}
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+.article-one {
+    display: grid;
+}
+.encabezado {
+    display: flex;
+    margin-bottom: 2rem;
+    background-color: $pink;
+}
+/*carroucel*/
+.carousel-inner iframe {
+    width: 100%;
+    height: 500px;
+}

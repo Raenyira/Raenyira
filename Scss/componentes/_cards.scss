@@ -1,0 +1,182 @@
+/* News Cards */
+
+@import "_colores.scss";
+@import "_mixins.scss";
+@import "_listas.scss";
+
+.news-cards {
+    display: grid;
+    gap: 25px;
+    margin: 70px 0;
+
+    * {
+        text-align: left;
+    }
+
+    &.columns-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.columns-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    img,
+    iframe {
+        width: 100%;
+    }
+    h3 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    a {
+        padding: 10px 0;
+        color: $lavender;
+        text-transform: uppercase;
+        display: inline-block;
+        font-weight: bold;
+    }
+}
+/*banner-one*/
+@each $width, $height in $cards {
+    .banner-#{$height} {
+        width: $width;
+        height: $height;
+    }
+}
+.cards-banner-one {
+    background: url(../imagenes/baber\ dos.jpj);
+    margin-bottom: 40px;
+    display: block;
+    text-decoration: $lavender;
+    opacity: initial;
+    .banner-gestion {
+        background: url(../imagenes/INstagram.webp);
+        text-align: center;
+        display: flex;
+        background-size: cover;
+        background-position: center; }
+    .one p {
+        text-align: justify;
+        font-size: 14px;
+        text-decoration: $lavender;
+        color: $lavender;
+        letter-spacing: 20%;
+        text-align: justify;
+        @include banner-props;
+        margin: 10px 0 20px 0;
+        width: 75%;
+        text-align: center;
+        display: block;
+            }
+    .h2 {
+                text-align: left;
+                @include banner-props;
+                two .tex {
+                    color: $lavender;
+                    text-align: center;
+                }
+            }
+                    }
+.cards-banner {
+    text-align: left;
+    @include banner-props;
+    two
+    .tex {
+        color: $lavender;
+        text-align: center;
+    }
+}
+.cards-banner-one .content {
+    color: $blueviolet;
+    text-align: left;
+    width: 100%;
+    padding: 60px 20px;
+}
+.cards-banner-one {
+    width: 100%;
+    height: 400px;
+    background: url(../imagenes/baber\ dos.jpj);
+    margin-bottom: 40px;
+    display: block;
+    text-decoration: $lavender;
+    opacity: initial;
+    .banner-gestion {
+        width: 100%;
+        height: 500px;
+        background: url(../imagenes/INstagram.webp);
+        text-align: center;
+        display: flex;
+        background-size: cover;
+        background-position: center; }
+    .one p {
+        text-align: justify;
+        font-size: 14px;
+        text-decoration: $lavender;
+        color: $lavender;
+        letter-spacing: 20%;
+        text-align: justify;
+        @include banner-props;
+        margin: 10px 0 20px 0;
+        width: 75%;
+        text-align: center;
+        display: block;
+            }
+    .h2 {
+                text-align: left;
+                @include banner-props;
+                two .tex {
+                    color: $lavender;
+                    text-align: center;
+                }
+            }
+                    }
+.cards-banner {
+    text-align: left;
+    @include banner-props;
+    two .tex {
+        color: $lavender;
+        text-align: center;
+    }
+}
+
+.cards-banner-one .content {
+    color: $blueviolet;
+    text-align: left;
+    width: 100%;
+    padding: 60px 20px;
+}
+
+/* CARDS BANNER TWO*/
+                    
+.cards-banner-two {
+    width: 100%;
+    height: 350px;
+    background-color:$black-x;
+    position: relative;
+    padding: 2px;
+    .content {
+        padding: 20px;
+    }
+    .p {
+        @include banner-props;
+        margin: 10px 0 20px 0;
+        width: 75%;
+        text-align: center;
+        display: block;
+    }
+}
+
+.cards-banner-one .content
+ {
+    padding: 20px;
+}
+/*NEWS CARDS*/
+.dad {
+    background-color:$hotpink;
+    transition: background-color 1s linear;
+    &:hover{
+        background-color: $blueviolet;
+    }
+}

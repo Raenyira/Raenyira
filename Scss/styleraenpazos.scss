@@ -1,0 +1,54 @@
+@import "componentes/_body.scss";
+@import "componentes/_cards.scss";
+@import "componentes/_colores.scss";
+@import "componentes/_footer.scss";
+@import "componentes/_listas.scss";
+@import "componentes/_mixins.scss";
+@import "componentes/_showcase.scss";
+@import "componentes/efectos";
+/* Global */
+* {
+  @include default-props;
+}
+/*imagen*/
+
+.perfil {
+    height: 250px;
+}
+
+.logo {
+    width: 100px;
+    margin-right: 2rem;
+}
+.photo-grid-container {
+    background-color: $rosybrown;
+}
+
+.brand-one {
+    width: 20px;
+    height: 30px;
+}
+
+.news-one {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    padding-bottom: 20%;
+    float: left;
+}
+
+/*navegacion*/
+.nav-link {
+    color: $hotpink!important;
+}
+
+.contenedor {
+    margin: auto;
+    display: table;
+}
+
+.content h2 p {
+    text-align: left;
+    @include banner-props;
+}
