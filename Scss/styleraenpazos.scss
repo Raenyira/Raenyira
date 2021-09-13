@@ -1,11 +1,11 @@
-@import "componentes/_body.scss";
-@import "componentes/_cards.scss";
-@import "componentes/_colores.scss";
-@import "componentes/_footer.scss";
-@import "componentes/_listas.scss";
-@import "componentes/_mixins.scss";
-@import "componentes/_showcase.scss";
-@import "componentes/efectos";
+@import "./componentes/_body";
+@import "./componentes/_cards";
+@import "./componentes/_colores";
+@import "./componentes/_footer";
+@import "./componentes/_listas";
+@import "./componentes/_mixins";
+@import "./componentes/_showcase";
+@import "./componentes/_efectos";
 /* Global */
 * {
   @include default-props;

@@ -306,6 +306,10 @@ h1 span {
   background-color: blueviolet;
 }
 
+.video-face {
+  width: 50%;
+}
+
 /* Links */
 .links {
   display: flex;
