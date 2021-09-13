@@ -3,7 +3,6 @@
 @import "_colores.scss";
 @import "_mixins.scss";
 @import "_listas.scss";
-
 .news-cards {
     display: grid;
     gap: 25px;
@@ -142,7 +141,7 @@
 }
 
 .cards-banner-one .content {
-    color: $blueviolet;
+    color: $white;
     text-align: left;
     width: 100%;
     padding: 60px 20px;
@@ -182,5 +181,4 @@
 }
 .video-face {
     width: 50%;
-
 }

@@ -110,6 +110,10 @@ h1 span {
   color: blue;
 }
 
+.col {
+  background-color: lavender;
+}
+
 /* News Cards */
 .news-cards {
   display: grid;
@@ -266,7 +270,7 @@ h1 span {
 }
 
 .cards-banner-one .content {
-  color: blueviolet;
+  color: white;
   text-align: left;
   width: 100%;
   padding: 60px 20px;
